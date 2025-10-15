@@ -1,7 +1,5 @@
 # Pin Definitions
 
-## Pin Definition Table
-
 | Device        | Name              | Arduino Pin | AtMega2560 Pin | AtMega 2560 Port | Description |
 | --------------|:-----------------:|:-----------:|:--------------:|:----------------:| -------------------------------------------------------- |
 | AtMega2560    | MOSI              | 51          | 21             | PB2              | SPI communication line |

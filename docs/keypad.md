@@ -3,12 +3,12 @@
 We reminisce mechanical cell phone keypads. In our opinion, the physical clickiness of the metal snap dome was never replaced by the haptic vibrators or touch screens. So we contacted our buddies in the cell phone repair markets, rummaged through some Shenzhen e-waste, and discovered a gold mine: recycled qwerty keypads!  We chose our favorite and worked it into the PCB design.
 
 ## Keypad hardware
-The full QWERTY keypad is off of the Blackberry 9700. The kit comes with the metal dome switch array that is placed onto the PCB AND the the 9700 keypad that is placed over the top. The keypad pressure fits onto the pcb, or can be held in place by a case.  The result is an extremely satisfying button press.
+The full qwerty keypad comes from the Blackberry 9700. The kit comes with the metal dome switch array that is placed onto the PCB and the 9700 keypad is placed over the top. The keypad pressure fits onto the pcb, or can be held in place by a case.  The result is an extremely satisfying button press.
 
 ## Keypad pin function
-The circuit board design is a simple rows and columns matrix.  Columns are pulled high to 5 volts through a 10K resistor and rows are grounded. When the metal snap dowm is compressed from a keyboard press, the row and column is triggered and the keypad library recognizes the keypad press.
+The circuit board design is a simple rows and columns matrix.  Columns are pulled high to 5 volts through a 10K resistor and rows are grounded. When the metal snap dome is compressed from a keyboard press, the row and column is triggered and the keypad library recognizes the keypad press.
 
-[insert rows and columns schematic]
+[See keypad matrix schematic](schematic.md)
 
 ## Keypad library
 We can use a keypad library written for Arduino by Mark Stanley and Alexander Brevig. The library is included in the Arduino IDE (version 1.6.2 or later). This library helps manage the matrix style keypad button presses for our board. There are a bunch of great [examples](https://github.com/Chris--A/Keypad/tree/master/examples) (in the Arduino IDE after you've installed the Keypad library through the library manager).

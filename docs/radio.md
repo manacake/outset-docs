@@ -4,13 +4,11 @@ At the core of the Lora Text Dev Kit is the RFM95W 915mhz radio module!  We are 
 
 ## Getting started with the Radio
 
-::: danger !
-The trackpad, screen, and microSD card slot are also connected to the SPI lines, so remember to set the chip select pins accordingly to ensure they do not interfere with your radio communication.
-:::
+!!! danger
+    The trackpad, screen, and microSD card slot are also connected to the SPI lines, so remember to set the chip select pins accordingly to ensure they do not interfere with your radio communication.
 
-::: warning !
-Power to the radio is controlled via an AO2415A high side mosfet.  When the mosfet's control pin is set high, power to the radio will be disconnected. When the mosfet's control pin is set low, the radio will receive power and turn on.  Use this mosfet to put the device into sleep mode when you do not radio running.
-:::
+!!! warning
+    Power to the radio is controlled via an AO2415A high side mosfet.  When the mosfet's control pin is set high, power to the radio will be disconnected. When the mosfet's control pin is set low, the radio will receive power and turn on.  Use this mosfet to put the device into sleep mode when you do not radio running.
 
 After you've verified the notes above, you can get started with radio communication!  We suggest starting with the basic code snippets that we have included below.  How far you want to take it is up to you as this is by far the most exciting component on the project. There are tons of unexplored opporutunities in this field that we feel our PCB design enables!
 
