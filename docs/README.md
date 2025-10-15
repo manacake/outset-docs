@@ -7,25 +7,25 @@ Your kit comes with everything you need to start sending and receiving messages.
 
 - **PCBA**: At the core of the circuit board is the AtMega2560 mcu.  If you've ever used the Arduino Mega, it's the same chip!  From there we've included all of the power management necessities to run off battery and circuitry for adding a TFT LCD, the RFM95 radio module, a trackpad, and a keypad. Check out our [Block Diagram](blockDiagram.md) to see what's going on at a high level.
 
-<img src="/assets/devKitPcbBack.png" alt="PCB (back side)">
-<img src="/assets/devKitPcbFront.png" alt="PCB (front side)">
+<img src="./assets/devkitPcbBack.png" alt="PCB (back side)">
+<img src="./assets/devkitPcbFront.png" alt="PCB (front side)">
 
 - **1.8" LCD TFT screen**
 
-<img src="/assets/devKitScreen.png" alt="Screen" style="width: 300px;">
+<img src="./assets/devkitScreen.png" alt="Screen" style="width: 300px;">
 
 - **Keypad**
 - **Metal Dome Keypad Array**
 
-<img src="/assets/devKitKeypad.png" alt="Keypad">
+<img src="./assets/devkitKeypad.png" alt="Keypad">
 
 - **915mhz antenna**
 
-<img src="/assets/devKitAntenna.png" alt="Antenna">
+<img src="./assets/devkitAntenna.png" alt="Antenna">
 
 - **Trackpad**
 
-<img src="/assets/devKitTrackpad.png" alt="Trackpad" style="width: 300px;">
+<img src="./assets/devkitTrackpad.png" alt="Trackpad" style="width: 300px;">
 
 ## How to flash
 We've designed the PCB to be as easy to use as we could. The board is Arduino compatible and you can flash the device the same way you would flash an Arduino Mega using the Arduion IDE. Here is a step by step for using the Arduino IDE:
